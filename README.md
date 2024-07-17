@@ -16,13 +16,13 @@ This repository contains the project files for the DivineDew Web Application, a 
 **Item List Page:**
 - Displays a diverse range of products or services with descriptions, imagery, and pricing details.
 
-**Item Details Page: **
+**Item Details Page:**
 - Provides comprehensive information about each item, including descriptions, imagery, and pricing, with options to add items to cart or wish list.
 
-**Cart/Wish List Page: **
+**Cart/Wish List Page:**
 - Allows users to view selected items, manage their selections, and proceed to checkout with shipping and payment details.
 
-**User Login System: **
+**User Login System:**
 - Secure access for registered users.
 
 **Purpose**
