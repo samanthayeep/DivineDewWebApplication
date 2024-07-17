@@ -1,20 +1,30 @@
-A dynamic website using event-driven client-side scripts like HTML, CSS, and JavaScript, coupled with a MySQL database.
+**DivineDew Web Application**
 
-The website's key features include: Home Page, Navigation Menu, Contact Page, Listing Page, Item Details Page, Cart/Wishlist Page
+This repository contains the project files for the DivineDew Web Application, a dynamic website developed as part of the UECS2094 Web Application Development course at Universiti Tunku Abdul Rahman. The project demonstrates the implementation of both static and dynamic web elements using HTML, CSS, JavaScript, PHP and MySQL.
 
-1. Home Page:
-- Provide a captivating overview of the website's diverse content and features, ensuring users what the site offers.
-- Include an integrated navigation menu, offering intuitive access to all pages within the website's ecosystem.
-3. Navigation Menu:
-- Create an organized navigation menu that serves as the backbone of user interaction, facilitating effortless exploration of all website sections.
-- Implement logical categorization and intuitive labelling, complemented by dropdown menus for streamlined access to subpages, enhancing user navigation fluidity.
-5. Contact Page:
-- Provide contact information, including email addresses and phone numbers, fostering accessibility and responsiveness to user inquiries and feedback.
-6. Item List Page:
-- Create an item list page that display a diverse array of products, services, or blog posts, accompanied by captivating imagery, concise titles, compelling descriptions, and transparent pricing details.
-7. Item Details Page:
-- Create an item details page that offers users a view into each item such as detailed descriptions, captivating imagery, and transparent pricing information.
-- Integrate functionality allowing users to add items to their cart or wish list directly from the item details page.  
-8. Cart/Wish list Page:
-- Create a visually appealing cart or wish list page that provides users with a clear overview of their selected items, accompanied by transparent pricing details and intuitive options for item removal.
-- Provide a checkout process by enabling users to input their shipping and payment information directly within the cart or wish list page.
+**Features**
+
+**Home Page:**
+- Provides an engaging overview of the website's offerings with an integrated navigation menu for easy access to all sections.
+
+**Navigation Menu:**
+- Organized to facilitate intuitive exploration, with dropdown menus for streamlined access to subpages.
+
+**Contact Page:**
+- Offers essential contact information for user inquiries and feedback.
+
+**Item List Page:**
+- Displays a diverse range of products or services with descriptions, imagery, and pricing details.
+
+**Item Details Page: **
+- Provides comprehensive information about each item, including descriptions, imagery, and pricing, with options to add items to cart or wish list.
+
+**Cart/Wish List Page: **
+- Allows users to view selected items, manage their selections, and proceed to checkout with shipping and payment details.
+
+**User Login System: **
+- Secure access for registered users.
+
+**Purpose**
+
+The web application serves as a practical showcase of skills in web development, emphasizing dynamic content presentation, user interaction, and responsive design.
