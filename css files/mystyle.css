@@ -1,0 +1,403 @@
+
+.shippingScreen {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 950px;
+}
+
+.leftSide, .rightSide {
+    flex: 1;
+    box-sizing: border-box;
+    width: 50%;
+    flex-shrink: 0;
+    padding: 100px;
+}
+
+.rightSide {
+    padding-top: 200px;
+    background-color: #F2F2F2;
+}
+
+form {
+    margin:5px;
+    margin-left:20px;
+}
+
+.navi {
+    padding-left: 70px;
+    margin-bottom: 60px;
+}
+
+.ship {
+    padding-left: 100px;
+    margin-bottom: 60px;
+}
+
+h3{
+    text-align:left;
+    width: 160px; 
+    height: 26px; 
+    color: #272727; 
+    font-size: 20px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 25.60px; 
+    word-wrap: break-word;
+}
+
+.standardShipping {
+    text-align:left;
+    width: 200px;
+    height:0px;
+    color:#272727; 
+    font-size:14px; 
+    font-family:Helvetica; 
+    font-weight:400; 
+    line-height:15.60px;
+    word-wrap:break-word;
+}
+
+.standardShipping-border {
+    width: 410px; 
+    height: 58px; 
+    border-radius: 7px; 
+    border: 1px #E5E5E5 solid;
+}
+
+.shipAddress-text {
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+.shipAddress {
+    padding-left: 65px;
+}
+
+.save{
+    padding-left: 95px;
+}
+
+.address-line {
+    display: flex;
+    align-items: center;
+}
+
+.directionword {
+    font-size: 16px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 25.60px; 
+    word-wrap: break-word;
+}
+
+.directioncolor {
+    color: 83764F;
+}
+
+.directionsymbol {
+    font-size: 16px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 25.60px; 
+    word-wrap: break-word;
+}
+
+.dropdownArrow {
+    border: 0.5px solid #898989;
+    position: relative;
+    top: -3px;
+    right: 30px;
+    transform: translateY(-50%);
+    width: 100%; /* Adjust width of arrow container */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 10px; /* Adjust size of arrow */
+    height: 10px; /* Adjust size of arrow */
+    border: solid black;
+    border-width: 0 1px 1px 0;
+}
+
+.dropdown-contentPro {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-left:5px;
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content{
+    display:none;
+    position: absolute;
+    background-color: #f9f9f9;
+    margin-left:25px;
+    min-width: 400px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-contentPro a , .dropdown-content a {
+    float: none;
+    color: #606060;
+    font-size: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.dropdown-contentPro a:hover , .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-contentPro , .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.ProceedToPayment {
+    text-align: center; 
+    color: white; 
+    font-size: 20.65px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.pic-text {
+    column-count: 2;
+    margin-left: -10px;
+    padding-right: 120px;
+    margin-bottom: 0px;
+}
+
+
+.image-container {
+    padding-top: 15px;
+    padding-right: 50px;
+    margin-left: -35px;
+    text-align: center;
+}
+
+.product-details {
+    padding: 0px;
+    padding-top: 0px;
+    margin-left: -30px;
+}
+
+.DivineDewFragrance {
+    width: 255px; 
+    height: 37px; 
+    color: #272727; 
+    font-size: 16px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    line-height: 57.60px; 
+    word-wrap: break-word;
+}
+
+.price {
+    width: 255px; 
+    height: 59px; 
+    color: #83764F; 
+    font-size: 21px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 57.60px; 
+    word-wrap: break-word;
+}
+
+.breakline {
+    height: 2px;
+    background-color: white;
+    margin: 10px;
+    width: 70%;
+}
+
+.addcode input[type=text] {
+    height: 40px;
+    border: 0.5px solid #898989;
+    background: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; 
+    letter-spacing: -0.9px;
+}
+
+.addcode input[type=submit] {
+    height: 40px;
+    width: 116px;
+    margin-top: 1px;
+    border: 0.5px;
+    border-radius: 2px;
+    text-align: center; 
+    background-color: #83764f;
+    color: white;
+    font-size: 15.5px; 
+    font-family: Roboto; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.addcode input[type=submit]:active {
+    box-shadow: 1px #83764f;
+    transform: translateY(2px);
+}
+
+
+
+.textFont {
+    width: 190px; 
+    height: 26px; 
+    color: #616161; 
+    font-size: 18px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 25.60px; 
+    word-wrap: break-word;
+}
+
+.text {
+    width: 190px; 
+    height: 26px; 
+    text-align: right; 
+    color: #272727; 
+    font-size: 18px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 25.60px; 
+    word-wrap: break-word;
+}
+
+.priceBig {
+    font-size: 24px; 
+}
+
+
+.logo-text {
+    column-count: 2;
+    background-color: A2A378;
+}
+
+.cardlogo {
+    margin-left: -119px;
+}
+
+.creditcard {
+    margin-left: -435px;
+    margin-top: 6px;
+    color: white;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15.6px; 
+    letter-spacing: -0.9px;
+    border: 0px;
+}
+
+.billingaddress {
+    border: 1px solid #E5E5E5;
+    border-radius: 7px;
+    width: 445px;
+    height:116px;
+}
+
+.con {
+  display: block;
+  position: relative;
+  padding-left: 70px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #272727;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15.6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ 
+}
+
+.con input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+
+}
+
+.checkmark {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 16px;
+  width: 16px;
+  background-color: rgba(255, 255, 255, 0.50);
+  border: 3px solid #E5E5E5;
+  border-radius: 50%;
+}
+
+.con:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.con input:checked ~ .checkmark {
+  background-color: #87D6AC;
+}
+
+hr {
+    width: 410px;
+    height:0px;
+    position: relative;
+    bottom: -10px;
+    color: #f0f0f0;
+}
+
+.backtoshipping a{
+    position:relative;
+    color: #56B280;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px; 
+    letter-spacing: -0.9px;
+    text-decoration-line: underline;
+}
+
+.pay {
+    column-count: 2;
+}
+
+.paynow {
+    position: right;
+    width: 170px;
+    height: 40px;
+    margin-left: 30px;
+    padding-left: 50px;
+    background-color: #83764f;
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 20.645px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 4px;
+}

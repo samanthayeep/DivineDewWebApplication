@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+}
+
+section{
+    position: relative;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section:before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    z-index:100;
+}
+section:after{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100px;
+    z-index:100;
+    mix-blend-mode: color;
+}
+
+section img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+#text{
+    position: relative;
+    color: black;
+    font-size: 8em;
+    z-index:1;
+    top: -240px;
+}
+
+#layer1{
+    top: 100px;
+
+}
+#layer2{
+    z-index: 2;
+}
+
+#layer3{
+    z-index:3;
+    left: -20%; 
+    width: 150%; 
+    height:100%;
+    overflow:hidden;
+}
+
+.aboutUsScreen{
+    background: linear-gradient(to bottom, #003F3a, #80a37a);
+    height:170vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 100px;
+}
+
+.aboutUsScreen .wrapper {
+    background: rgba(255,255,255,0.55);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 80px;
+    width: 100%;
+    height:150vh;
+}
+
+#aboutUsTitle{
+    font-size: 32px;
+    color: #1D293F;
+    padding-bottom: 20px;
+}
+
+#aboutUsText, #aboutUsText2{
+    width:40vw;
+    box-sizing: border-box;
+    color: #1D293F;
+    font-size: 20px;
+    line-height: 2;
+    float:left;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+#aboutUsText2{
+    width: 30vw;
+    float:right;
+}
+
+#aboutUsImage{
+    padding-top:50px;
+    float: right;
+    width:30vw;
+    height: 800px;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        flex-direction: column; 
+        height: auto;
+        min-height: 300vh;
+    }
+    .aboutUsScreen{
+        height: auto;
+        min-height: 300vh;
+    }
+    #aboutUsText {
+        width: 100%; 
+        padding-top: 20px; 
+        max-height: none; 
+        overflow-y: visible; 
+    }
+    #aboutUsText2 {
+        width: 100%; 
+        padding-top: 20px; 
+        max-height: none; 
+        overflow-y: visible; 
+        float:left;
+    }
+    #aboutUsImage{
+        width: 100%;
+    }
+} 

@@ -1,0 +1,195 @@
+.cartContainer {
+  width: 100%;
+  background:#FFF;
+  margin-top:100px;
+}
+
+.column1 {
+  height:115px;
+
+ } 
+
+.cartTitle{
+  text-align: center;
+  color:#272727;
+  font-size:26px;
+  line-height:57.60px;
+}
+
+.hyperLink {
+  text-align: center;
+  color:#83764F;
+  font-size:18px;
+  text-decoration: none;
+  line-height:25.60px;
+  padding-bottom: 60px;
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%; 
+  height:auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.cartProducts{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  overflow: auto;
+}
+
+.title.tableColumn {
+  flex-basis: 0; 
+  flex-grow: 1; 
+  padding: 15px;
+  padding-right: 440px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc; 
+  padding-left:60px;
+}
+
+.product-details.tableColumn {
+  flex-basis: 0; 
+  flex-grow: 1; 
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc; 
+  padding-left:60px;
+}
+
+.productDetails{
+  flex-basis: 0; 
+  flex-grow: 1; 
+  height: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc; 
+  padding-top: 15px;
+}
+
+.productDetailsName{
+  flex-basis: 0; 
+  flex-grow: 1; 
+  height: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ccc; 
+  padding-top: 15px;
+  padding-right: 100px;
+}
+
+.image-gallery img {
+  background-color:#F7F8FA;
+  height: 160px;
+}
+
+.productName{
+  font-size:24px;
+}
+
+.remove{
+  color:#83764F;
+  font-size:16px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+.price {
+  font-size: 18px;
+  padding-left: 40px;
+}
+
+.increment-box {
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.quantity-input {
+  width: 50px;
+  text-align: center;
+}
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quantity-input {
+  height: 20px;
+  width:35px;
+  font-size:16px;
+}
+
+.increment-btn,
+.decrement-btn {
+  cursor: pointer;
+  font-size:16px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color:white;
+}
+
+.increment-btn:hover,
+.decrement-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.column3 {
+  height: 248px; 
+  display: flex;
+  align-items: center;
+}
+
+.total-container {
+  margin-left: auto; 
+  display:flex
+}
+
+.total {
+  color: #272727;
+  width: 100px;
+  letter-spacing: -0.9px;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.amount {
+  color: #272727;
+  letter-spacing: -0.9px;
+  padding: 10px 55px;
+  font-size: 20px;
+}
+
+.button {
+  width: 200px;
+  height: 42px;
+  text-align: center;
+  background: #83764F;
+  color: #FFFFFF;
+  font-size: 20.645px;
+  margin-right:40px;
+}
+
+#errorMessage{
+  padding: 40px;
+  font-size: 24px;
+}
+
+
+

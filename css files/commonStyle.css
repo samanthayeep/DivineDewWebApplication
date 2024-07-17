@@ -1,0 +1,147 @@
+.navigationMenu {
+    position: fixed;
+    top:0%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    background-color: #ffffff; 
+    padding: 10px 20px;
+    height: 60px;
+    width: 100vw;
+  }
+  
+  .logo img{
+    height: 50px;
+}
+
+  .navigationMenu a{
+    text-decoration: none;
+    color:black;
+  }
+
+  .itemLink {
+    text-align: center;
+    padding-top: 30px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .icons {
+    width: 200px;
+  }
+
+  .box{
+    width:50px;
+  }
+
+  .itemLink .arrow {  
+    font-size: 26px;
+    height: 5px;
+    vertical-align: 0.2em;
+}
+
+
+.icons img{
+  padding: 0px 20px;
+    width: 30px;
+    height:30px; 
+}
+
+.dropdownMenu {
+    width: 100vw;
+    height:210px;
+    padding:30px 40px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    position: fixed;
+
+    left: 0px;
+}
+
+.dropdownContent {
+    float:left;
+    width:20%;
+    background-color: #ffffff;
+    height:100%;
+    margin: 0px 20px;
+    display:inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#explore:hover .dropdownMenu{
+    display: block;
+}
+
+.dropdownContent .heading, .dropdownContent .text{
+    font-size:16px;
+    height:32px;
+    text-align: center;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    background-color: #a2a378;
+    height: 360px;
+    
+}
+
+.line {
+    height: 1px;
+    background-color: white;
+    margin-top: 6vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
+
+.footerContent {
+    position: relative;
+    display: flex;
+}
+
+.footerLeft {
+    margin-left: 10%;
+}
+
+.footerLeft .logo {
+    max-height: 70px;
+    max-width: 100%;
+}
+
+.logoText {
+    padding-top: 10px;
+    padding-left: 5px;
+    max-width: 20vw;
+    color: white;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+    line-height: 22.8px;
+}
+
+.footerItem {
+    padding-left: 100px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    position: relative;
+}
+
+.headingText a{
+    text-decoration: none;
+    color:#83674F;
+    font-size:16px;
+}
+
+.linkText{
+    color:#e1e1e1;
+    text-decoration: none;
+    font-size:16px;
+}
+
