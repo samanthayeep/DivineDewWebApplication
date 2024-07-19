@@ -52,7 +52,7 @@ The web application serves as a practical showcase of skills in web development,
 
 Each member contributed to different aspects of the project, including designing, coding, testing, and documentation. Specific contributions are detailed in the project report.
 
-Lessons Learned
+**Lessons Learned**
 
 - Understanding the integration of frontend and backend technologies.
 - Importance of secure user authentication and data handling.
