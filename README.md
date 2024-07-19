@@ -28,3 +28,32 @@ This repository contains the project files for the DivineDew Web Application, a 
 **Purpose**
 
 The web application serves as a practical showcase of skills in web development, emphasizing dynamic content presentation, user interaction, and responsive design.
+
+**Installation and Usage**
+
+1. Clone the repository:
+- git clone https://github.com/samanthayeep/DivineDewWebApplication.git
+
+2. Navigate to the project directory:
+- cd DivineDewWebApplication
+
+3. Set up the database:
+- Import the provided SQL file into your MySQL database.
+- Update the database connection settings in the configuration file.
+
+4. Start the server:
+- Ensure your web server (e.g., Apache) and PHP are running.
+- Place the project files in your web server's root directory.
+
+5. Access the application:
+- Open a web browser and navigate to http://localhost/DivineDewWebApplication.
+
+**Contribution**
+
+Each member contributed to different aspects of the project, including designing, coding, testing, and documentation. Specific contributions are detailed in the project report.
+
+Lessons Learned
+
+- Understanding the integration of frontend and backend technologies.
+- Importance of secure user authentication and data handling.
+- Collaboration and effective communication within a team.
